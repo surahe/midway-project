@@ -6,4 +6,6 @@ export default {
   koa: {
     port: 7001,
   },
+  accessKey: process.env.OSS_ACCESSKEY,     // 54321
+  secret: process.env.OSS_SECRET            // 12345
 } as MidwayConfig;
